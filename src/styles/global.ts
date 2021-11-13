@@ -29,4 +29,18 @@ export default createGlobalStyle`
   button {
     cursor: pointer;
   }
+
+  body::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: transparent;        
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #DDD6;
+    border-radius: 1.5rem ;
+  }
+
 `;
